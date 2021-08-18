@@ -29,10 +29,47 @@
 .center{
     text-align:center ;
 }
+
+.middle{
+    background-color: rgb(203, 224, 15);
+    text-align: center;
+}
+
+
 footer{
     background-color: rgb(203, 224, 15);
+    margin-top: 45px;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    padding-bottom: 30px;
+}
+
+footer a  {
+    color: #555;
+}
+footer a:hover{
+    color: rgb(219, 3, 3);
+}
+
+footer small{
+    float:right;
+    position:sticky;
+}
+
+footer ul li{
+    float: left;
+    list-style:none;
     
-    text-align:center;
+}
+
+footer div{
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 .jumbotron{
@@ -47,13 +84,16 @@ footer{
     margin-bottom: -30px;
     letter-spacing: -1px;
     font-weight: bold;
-    height: 100px;
-    display: flex;
-    align-items: center;    
+    text-align: center;
+    margin-bottom: 20px;
+    height: 65px;
+    display: flex; align-items: center; 
     justify-content: center
 }
+
+
 .btn-pos{
-    margin: 50px;
+    margin: 15px;
 }
 .btn-xlarge{
     background-color:rgb(203, 224, 15) ;
