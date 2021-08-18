@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -14,3 +15,34 @@
  *= require_self
  */
 @import "bootstrap/scss/bootstrap";
+
+
+.navbar{
+    background-color: rgb(203, 224, 15);
+}
+
+.center{
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: asset-url('gif1.gif');
+    background-size: cover;
+    height: 450px;
+    
+}
+
+#logo {
+    float: right;
+    font-size: 1.7em;
+    color: rgb(202, 17, 17);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    color: #080307;
+    text-decoration: none;
+}
+
