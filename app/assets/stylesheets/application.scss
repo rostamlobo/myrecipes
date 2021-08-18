@@ -21,15 +21,46 @@
     background-color: rgb(203, 224, 15);
 }
 
+.container {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;;
+}
 .center{
-    text-align: center;
+    text-align:center ;
+}
+footer{
+    background-color: rgb(203, 224, 15);
+    
+    text-align:center;
 }
 
 .jumbotron{
-    background-image: asset-url('gif1.gif');
+    background-image: asset-url('test1.jpg');
     background-size: cover;
-    height: 450px;
+    height: 400px;
     
+}
+
+.jumbotron h1,h3{
+    color:rgb(255, 255, 255);
+    margin-bottom: -30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    align-items: center;    
+    justify-content: center
+}
+.btn-pos{
+    margin: 50px;
+}
+.btn-xlarge{
+    background-color:rgb(203, 224, 15) ;
+}
+.btn-xlarge:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 #logo {
