@@ -21,20 +21,51 @@
     background-color: rgb(203, 224, 15);
 }
 
-.container {
-    width: 1500px;
-    margin-left: auto;
-    margin-right: auto;;
-}
 .center{
     text-align:center ;
 }
+
+.jumbotron{
+    background-image: asset-url('test1.jpg');
+    background-size: cover;
+    height: 400px;
+    
+}
+
+.jumbotron h1,h3{
+    color:rgb(255, 255, 255);
+    margin-bottom: -30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 65px;
+    display: flex; align-items: center; 
+    justify-content: center
+}
+
+.btn-pos{
+    margin: 15px;
+}
+.btn-xlarge{
+    background-color:rgb(203, 224, 15) ;
+}
+.btn-xlarge:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .middle{
     background-color: rgb(203, 224, 15);
     text-align: center;
 }
-
+.container {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}   
 
 footer{
     background-color: rgb(203, 224, 15);
@@ -70,37 +101,6 @@ footer div{
     justify-content: center;
 
 
-}
-
-.jumbotron{
-    background-image: asset-url('test1.jpg');
-    background-size: cover;
-    height: 400px;
-    
-}
-
-.jumbotron h1,h3{
-    color:rgb(255, 255, 255);
-    margin-bottom: -30px;
-    letter-spacing: -1px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    height: 65px;
-    display: flex; align-items: center; 
-    justify-content: center
-}
-
-
-.btn-pos{
-    margin: 15px;
-}
-.btn-xlarge{
-    background-color:rgb(203, 224, 15) ;
-}
-.btn-xlarge:hover{
-    color: #fff;
-    text-decoration: none;
 }
 
 #logo {
