@@ -4,10 +4,12 @@
     <hr />
     <%= simple_format(@recipe.description) %>
     <hr />
+    
     <div class="pull-left">
         <p class="center">
         <em>Created by:</em>
         <p class="center"><%= link_to gravatar_for(@recipe.chef),recipes_path%></p>
+        <p class= "center-chefname"><%= @recipe.chef.chefname%>
         <p><h4><small>Chef: "<%= @recipe.chef.chefname.capitalize %>"</small></h4></p>
         </p>
     </div>
@@ -16,6 +18,18 @@
         <%= time_ago_in_words(@recipe.created_at) %> ago
         </p>
     </div>
+    <div class="recipe-actions">
+        <div class="recipe-actions edit-button-pos">
+            <%= link_to "Edit this recipe", edit_recipe_path(@recipe), class: "btn btn-xlarge btn-primary"%>
+        </div>
+        <div class="recipe-actions delete-button-pos">
+            <%= link_to "Delete this recipe", recipe_path(@recipe),method: :delete,data:{confirm: "Are u sure u want delete this?"}, class:"btn btn-xs btn-danger" %>
+        </div>
+    </div>
+
+</div>
+<div class="recipe-actions return-listing-button-pos">
+            <%= link_to "Return to recipes listing", recipes_path, class: "btn btn-xlarge btn-primary"%>
 </div>
 
 <ul><%= link_to "Back", recipes_path %></ul>

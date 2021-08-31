@@ -47,6 +47,9 @@
 .btn-pos{
     margin: 15px;
 }
+.btn-pos-home-button{
+    margin-left: 25em;
+}
 .btn-xlarge{
     background-color:rgb(203, 224, 15) ;
 }
@@ -131,6 +134,10 @@ footer div{
         border-radius: 50%;
     }
 }
+.center-chefname{
+    text-align: left;
+    margin-left: 110px;
+}
 .new-recipe{
     margin-left:200px;
 }
@@ -155,6 +162,24 @@ footer div{
     background-color:rgb(35, 207, 35);
     margin-left: 120px;
     text-align: center;
+}
+
+.edit-button-pos{
+    margin-left: 65em;
+    padding-bottom: 20px;
+
+}
+.delete-button-pos{
+    margin-left: 65em;
+    
+}
+.return-listing-button-pos{
+    
+    padding: 20px;
+    text-align: center;
+}
+.create{
+    padding: 12px;
 }
 #logo {
     float: right;
